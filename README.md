@@ -1,11 +1,9 @@
 
-https://github.com/kissonwood/ubuntu_and_nginx
----
+# [Image] 
 https://hub.docker.com/repository/docker/kissonwood/ubuntu_and_nginx
----
 
 # [Dockerfile] 
-FROM ubuntu MAINTAINER kissonwood@gmail.com RUN apt update -y RUN apt install -y tree RUN apt install -y nginx
+https://github.com/kissonwood/ubuntu_and_nginx
 
 # [Image Build] 
 docker build --tag kissonwood/ubuntu_and_nginx:0.3 .
