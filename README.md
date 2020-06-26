@@ -1,12 +1,5 @@
-
-<<<<<<< HEAD
-[Image] https://hub.docker.com/repository/docker/kissonwood/ubuntu_and_nginx
-
-[Dockerfile] https://github.com/kissonwood/ubuntu_and_nginx
-=======
 # [Image] 
 https://hub.docker.com/repository/docker/kissonwood/ubuntu_and_nginx
->>>>>>> bd32cc503abca981c75e87ba3eeac3ea3d8a2a0b
 
 # [Dockerfile] 
 https://github.com/kissonwood/ubuntu_and_nginx
