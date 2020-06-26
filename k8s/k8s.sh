@@ -1,4 +1,4 @@
-
+docker pull kissonwood/ubuntu_and_nginx:0.3
 docker images | grep kissonwood/ubuntu_and_nginx
 kubectl run mynginx --image=kissonwood/ubuntu_and_nginx:0.3 --port=80
 kubectl get deployments | grep mynginx
