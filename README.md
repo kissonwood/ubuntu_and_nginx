@@ -1,10 +1,17 @@
-ubuntu_and_nginx
 
-[Dockerfile] FROM ubuntu MAINTAINER kissonwood@gmail.com RUN apt update -y RUN apt install -y tree RUN apt install -y nginx
+https://github.com/kissonwood/ubuntu_and_nginx
+---
+https://hub.docker.com/repository/docker/kissonwood/ubuntu_and_nginx
+---
 
-[Image Build] docker build --tag kissonwood/ubuntu_and_nginx:0.3 .
+# [Dockerfile] 
+FROM ubuntu MAINTAINER kissonwood@gmail.com RUN apt update -y RUN apt install -y tree RUN apt install -y nginx
 
-[Image Ussage] winpty docker run
+# [Image Build] 
+docker build --tag kissonwood/ubuntu_and_nginx:0.3 .
+
+# [Image Ussage] 
+winpty docker run
 -it
 --rm
 --name n1
@@ -12,4 +19,5 @@ ubuntu_and_nginx
 -v c:\Users\user\html:/usr/share/nginx/html
 kissonwood/ubuntu_and_nginx:0.3
 
-[Image Push] docker push kissonwood/ubuntu_and_nginx:0.3
+# [Image Push] 
+docker push kissonwood/ubuntu_and_nginx:0.3
